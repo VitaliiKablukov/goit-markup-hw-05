@@ -277,17 +277,20 @@ header {
   margin-bottom: 50px;
 }
 .project-img-above {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
-  padding-top: 27px;
-  padding-bottom: 27px;
+  height: 70px;
   width: 100%;
   bottom: 0;
   background-color: rgba(47, 48, 58, 0.8);
   text-align: center;
 }
 .project-img-title {
-  font-size: 14px;
   line-height: 1.14;
+  font-weight: 700;
+  text-align: center;
   text-transform: uppercase;
   color: var(--color-third);
 }
@@ -583,7 +586,7 @@ header {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-/* modal window */
+/* ____________________________modal window */
 .backdrop {
   position: fixed;
   top: 0;

@@ -407,9 +407,6 @@ header {
   display: flex;
   align-items: baseline;
 }
-.third-footer-container {
-  margin-left: 70px;
-}
 
 .logo-footer {
   color: var(--color-third);
